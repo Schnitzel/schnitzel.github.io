@@ -1,0 +1,1868 @@
+/*** uncss> filename: /Users/Michael/git/schnitzel.github.io/css/font.css ***/
+
+@font-face {
+  font-family: 'open_sansbold';
+  src: url('../font/OpenSans-Bold-webfont.eot');
+  src: url('../font/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../font/OpenSans-Bold-webfont.woff') format('woff'),
+		url('../font/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sansbold_italic';
+  src: url('../font/OpenSans-BoldItalic-webfont.eot');
+  src: url('../font/OpenSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../font/OpenSans-BoldItalic-webfont.woff') format('woff'),
+         url('../font/OpenSans-BoldItalic-webfont.ttf') format('truetype'),
+         url('../font/OpenSans-BoldItalic-webfont.svg#open_sansbold_italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sansextrabold';
+  src: url('../font/OpenSans-ExtraBold-webfont.eot');
+  src: url('../font/OpenSans-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
+ 		 url('../font/OpenSans-ExtraBold-webfont.woff') format('woff'),
+         url('../font/OpenSans-ExtraBold-webfont.ttf') format('truetype'),
+         url('../font/OpenSans-ExtraBold-webfont.svg#open_sansextrabold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sansextrabold_italic';
+  src: url('../font/OpenSans-ExtraBoldItalic-webfont.eot');
+  src: url('../font/OpenSans-ExtraBoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../font/OpenSans-ExtraBoldItalic-webfont.woff') format('woff'),
+         url('../font/OpenSans-ExtraBoldItalic-webfont.ttf') format('truetype'),
+         url('../font/OpenSans-ExtraBoldItalic-webfont.svg#open_sansextrabold_italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sansitalic';
+  src: url('../font/OpenSans-Italic-webfont.eot');
+  src: url('../font/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+ 		 url('../font/OpenSans-Italic-webfont.woff') format('woff'),
+         url('../font/OpenSans-Italic-webfont.ttf') format('truetype'),
+         url('../font/OpenSans-Italic-webfont.svg#open_sansitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sanslight';
+  src: url('../font/OpenSans-Light-webfont.eot');
+  src: url('../font/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+ 		 url('../font/OpenSans-Light-webfont.woff') format('woff'),
+         url('../font/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../font/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sanslight_italic';
+  src: url('../font/OpenSans-LightItalic-webfont.eot');
+  src: url('../font/OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../font/OpenSans-LightItalic-webfont.woff') format('woff'),
+         url('../font/OpenSans-LightItalic-webfont.ttf') format('truetype'),
+         url('../font/OpenSans-LightItalic-webfont.svg#open_sanslight_italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sansregular';
+  src: url('../font/OpenSans-Regular-webfont.eot');
+  src: url('../font/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../font/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../font/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../font/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sanssemibold';
+  src: url('../font/OpenSans-Semibold-webfont.eot');
+  src: url('../font/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+ 		 url('../font/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('../font/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('../font/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sanssemibold_italic';
+  src: url('../font/OpenSans-SemiboldItalic-webfont.eot');
+  src: url('../font/OpenSans-SemiboldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../font/OpenSans-SemiboldItalic-webfont.woff') format('woff'),
+         url('../font/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'),
+         url('../font/OpenSans-SemiboldItalic-webfont.svg#open_sanssemibold_italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoBoldCondensed';
+  src: url('../font/Roboto-BoldCondensed-webfont.eot');
+  src: url('../font/Roboto-BoldCondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Roboto-BoldCondensed-webfont.woff') format('woff'),
+         url('../font/Roboto-BoldCondensed-webfont.ttf') format('truetype'),
+         url('../font/Roboto-BoldCondensed-webfont.svg#RobotoBoldCondensed') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoMedium';
+  src: url('../font/Roboto-Medium-webfont.eot');
+  src: url('../font/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Roboto-Medium-webfont.woff') format('woff'),
+         url('../font/Roboto-Medium-webfont.ttf') format('truetype'),
+         url('../font/Roboto-Medium-webfont.svg#RobotoMedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*** uncss> filename: /Users/Michael/git/schnitzel.github.io/css/etlinefont.css ***/
+
+@font-face {
+  font-family: 'et-line';
+  src: url('../font/et-line.eot');
+  src: url('../font/et-line.eot?#iefix') format('embedded-opentype'),
+		url('../font/et-line.woff') format('woff'),
+		url('../font/et-line.ttf') format('truetype'),
+		url('../font/et-line.svg#et-line') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+
+/* Use the following CSS code if you want to have a class per icon */
+
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+
+.icon-camera,
+.icon-puzzle,
+.icon-tools-2,
+.icon-global,
+.icon-refresh {
+  font-family: 'et-line';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+}
+
+.icon-camera:before {
+  content: "\e012";
+}
+
+.icon-puzzle:before {
+  content: "\e026";
+}
+
+.icon-tools-2:before {
+  content: "\e034";
+}
+
+.icon-global:before {
+  content: "\e052";
+}
+
+.icon-refresh:before {
+  content: "\e05a";
+}
+
+/*** uncss> filename: /Users/Michael/git/schnitzel.github.io/css/font-awesome.css ***/
+
+/*!
+ *  Font Awesome 4.1.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+
+/* FONT PATH
+ * -------------------------- */
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../font/fontawesome-webfont.eot?v=4.1.0');
+  src: url('../font/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'), url('../font/fontawesome-webfont.woff?v=4.1.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'), url('../font/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* makes the font 33% larger relative to the icon container */
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+
+.fa-twitter:before {
+  content: "\f099";
+}
+
+.fa-facebook:before {
+  content: "\f09a";
+}
+
+.fa-github:before {
+  content: "\f09b";
+}
+
+.fa-link:before {
+  content: "\f0c1";
+}
+
+.fa-bars:before {
+  content: "\f0c9";
+}
+
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+
+.fa-suitcase:before {
+  content: "\f0f2";
+}
+
+.fa-angle-double-up:before {
+  content: "\f102";
+}
+
+.fa-calendar-o:before {
+  content: "\f133";
+}
+
+.fa-instagram:before {
+  content: "\f16d";
+}
+
+.fa-drupal:before {
+  content: "\f1a9";
+}
+
+/*** uncss> filename: /Users/Michael/git/schnitzel.github.io/css/base.css ***/
+
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Reset & Basics
+	#Basic Styles
+	#Typography
+	#Links
+	#Buttons
+	#Browser Fix
+	#Misc
+
+
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+p,
+a,
+img,
+i,
+ul,
+li,
+footer,
+header,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+*::-moz-selection {
+  background: #111111;
+  color: #ffffff;
+}
+
+a:focus {
+  outline: 0;
+}
+
+/* #Basic Styles
+================================================== */
+
+body {
+  background: #ffffff;
+  font: 14px/21px 'open_sans', Arial, sans-serif;
+  color: #999999;
+  -webkit-font-smoothing: antialiased;
+  /* Fix for webkit rendering */
+  -webkit-text-size-adjust: 100%;
+}
+
+/* #Typography and #Common style
+================================================== */
+
+h1,
+h2,
+h3 {
+  color: #343434;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 22px;
+}
+
+.bigTitle {
+  position: relative;
+}
+
+.bigTitle img {
+  background: #ffffff;
+  left: 48.53%;
+  padding: 3px 7px;
+  position: absolute;
+  top: 37px;
+  width: 3%;
+}
+
+.tgreyHolder .bigTitle img {
+  background: #f4f4f4;
+}
+
+.bigTitle h2 {
+  font-size: 18px;
+  margin-bottom: 50px;
+  display: inline-block;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.bigTitle h2:after {
+  background: #343434;
+  content: "";
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  top: 45px;
+  width: 70px;
+  margin-left: -35px;
+}
+
+.introTitle {
+  position: relative;
+}
+
+.introTitle h2:after {
+  background: none repeat scroll 0 0 #f1f1f1;
+  content: "";
+  height: 2px;
+  left: 50%;
+  margin-left: -36.8px;
+  position: absolute;
+  top: 70px;
+  width: 70px;
+}
+
+.introTitle img {
+  background: #343434;
+  left: 41.8%;
+  padding: 3px 7px;
+  position: absolute;
+  top: 62px;
+  width: 15%;
+}
+
+.caption h1,
+.introTitle h2,
+.cltInner h2,
+.cltInner a,
+.bigTitle h2,
+.rcgIntro h2,
+.rcgDet h2,
+.info h2,
+.intro h2,
+h2.prfTitle {
+  font-family: 'RobotoBoldCondensed', Arial, sans-serif;
+}
+
+.itemDesc h3,
+.rcgDet h3 {
+  font-family: 'open_sanssemibold', Arial, sans-serif;
+}
+
+.mainNav li a,
+.det h3,
+.info ul li span {
+  font-family: 'open_sansbold', Arial, sans-serif;
+}
+
+ul#category li a,
+.itemDesc span,
+.det h3 span,
+.date span,
+.rcgDet h3 span {
+  font-family: 'open_sanslight_italic', Arial, sans-serif;
+}
+
+.rcgIntro p {
+  font-family: 'open_sanssemibold_italic', Arial, sans-serif;
+}
+
+h2.prfTitle span {
+  font-family: 'open_sanslight', Arial, sans-serif;
+}
+
+ul#category li a,
+.itemDesc span,
+.det h3 span,
+.det .date span,
+.insta h3,
+.mainNav li a {
+  -webkit-text-stroke: 0.30px;
+}
+
+/* #Links
+================================================== */
+
+a {
+  transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+}
+
+/* #Buttons
+================================================== */
+
+.btn {
+  padding: 8px 18px;
+}
+
+/* #Browser Fix
+================================================== */
+
+.introTitle img,
+.introTitle,
+.bigTitle,
+.bigTitle img,
+.mainHeader,
+.headerSocials,
+.det,
+.dtIco span.ico,
+.imgProfile {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+}
+
+/* #Misc
+================================================== */
+
+.tCenter {
+  text-align: center;
+}
+
+.tLeft {
+  text-align: left;
+}
+
+.ofsInTop {
+  padding-top: 60px !important;
+}
+
+.ofsInBottom {
+  padding-bottom: 60px !important;
+}
+
+.ofsTMedium {
+  padding-top: 40px !important;
+}
+
+.ofsBMedium {
+  padding-bottom: 40px !important;
+}
+
+.ofsBSmall {
+  padding-bottom: 20px !important;
+}
+
+.margLBottom {
+  margin-bottom: 80px !important;
+}
+
+.margHBottom {
+  margin-bottom: 100px !important;
+}
+
+.margHTop {
+  margin-top: 100px !important;
+}
+
+.bgGrey {
+  background: #f3f3f3;
+}
+
+.bgGreyDark {
+  background: #343434;
+}
+
+.bgGreenDark {
+  background: #309B76;
+}
+
+/*** uncss> filename: /Users/Michael/git/schnitzel.github.io/css/skeleton.css ***/
+
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Contents
+==================================================
+    #Base 960 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing */
+
+/* #Base 960 Grid
+================================================== */
+
+.container {
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container .column,
+.columns,
+.container .columns {
+  float: left;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Nested Column Classes */
+
+/* Base Grid */
+
+.container .four.columns {
+  width: 220px;
+}
+
+.container .six.columns {
+  width: 340px;
+}
+
+.container .eight.columns {
+  width: 460px;
+}
+
+.container .twelve.columns {
+  width: 700px;
+}
+
+.container .one-third.column {
+  width: 300px;
+}
+
+/* Offsets */
+
+/* #Tablet (Portrait)
+================================================== */
+
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .container {
+    width: 768px;
+  }
+
+  .container .column,
+  .container .columns {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .container .four.columns {
+    width: 172px;
+  }
+
+  .container .six.columns {
+    width: 268px;
+  }
+
+  .container .eight.columns {
+    width: 364px;
+  }
+
+  .container .twelve.columns {
+    width: 556px;
+  }
+
+  .container .one-third.column {
+    width: 236px;
+  }
+
+  /* Offsets */
+}
+
+/*  #Mobile (Portrait)
+================================================== */
+
+/* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 300px;
+  }
+
+  .container .columns,
+  .container .column {
+    margin: 0;
+  }
+
+  .container .four.columns,
+  .container .six.columns,
+  .container .eight.columns,
+  .container .twelve.columns,
+  .container .one-third.column {
+    width: 300px;
+  }
+
+  /* Offsets */
+}
+
+/* #Mobile (Landscape)
+================================================== */
+
+/* Note: Design for a width of 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 420px;
+  }
+
+  .container .columns,
+  .container .column {
+    margin: 0;
+  }
+
+  .container .four.columns,
+  .container .six.columns,
+  .container .eight.columns,
+  .container .twelve.columns,
+  .container .one-third.column {
+    width: 420px;
+  }
+}
+
+/* #Clearing
+================================================== */
+
+/* Self Clearing Goodness */
+
+.container:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+
+.clearfix:before,
+.clearfix:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+/* You can also use a <br class="clear" /> to clear columns */
+
+/*** uncss> filename: /Users/Michael/git/schnitzel.github.io/css/main.css ***/
+
+/*Wrapper*/
+
+#wrapper {
+  position: relative;
+  width: 100%;
+}
+
+/*End wrapper*/
+
+/*Profile teaser*/
+
+.profileTeaser {
+  overflow: hidden;
+  position: relative;
+}
+
+.profileTeaser .slide li {
+  background-size: cover !important;
+  height: 520px !important;
+}
+
+.profileTeaser .slide li:before,
+.imgrecognition:before {
+  background: rgba(36, 36, 36, 0.3);
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.caption {
+  top: 23.4%;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+}
+
+.caption h1 {
+  color: #ffffff;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -1px;
+}
+
+.caption h2 {
+  color: #ffffff;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: bold;
+  text-transform: none;
+}
+
+/*End teaser profile*/
+
+/*Header*/
+
+header {
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.97);
+  position: absolute;
+}
+
+header.base {
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: -81px;
+}
+
+.mainHeader {
+  width: 100%;
+  text-align: center;
+}
+
+.nav {
+  width: 360px !important;
+}
+
+.headerSocials {
+  width: 180px !important;
+  padding: 30px 0px;
+}
+
+.headerSocials li {
+  display: inline;
+  font-size: 15px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.headerSocials li a {
+  color: #ffffff;
+}
+
+.mainNav li {
+  display: inline-block;
+  font-size: 11px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.mainNav li a {
+  color: #ffffff;
+  display: block;
+  padding: 29px 15px;
+  position: relative;
+}
+
+.mobileBtn {
+  background: rgba(0,0,0,0);
+  padding: 5px;
+  text-align: center;
+  z-index: 1000;
+  display: none;
+}
+
+.mobileBtn i {
+  font-size: 20px;
+  color: #343434;
+}
+
+/*End header*/
+
+/*About section*/
+
+.profile {
+  padding-bottom: 100px;
+}
+
+h2.prfTitle {
+  font-size: 18px;
+  position: relative;
+}
+
+.info h2,
+.intro h2 {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.info ul li span {
+  font-size: 13px;
+}
+
+h2.prfTitle,
+.info h2,
+.intro h2 {
+  margin-bottom: 10px;
+}
+
+h2.prfTitle {
+  color: #f1f1f1;
+  display: block;
+  font-size: 28px;
+  margin-top: 5px;
+}
+
+h2.prfTitle span {
+  color: #9d9d9d;
+  display: block;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.innerProfile {
+  margin-top: 100px;
+}
+
+.imgProfile {
+  margin: 80px auto 50px auto;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  border: 4px solid #504d4c;
+  display: inline-block;
+}
+
+.imgProfile img {
+  display: inline-block;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  height: 192px;
+  width: 200px;
+}
+
+.info,
+.intro {
+  margin-top: 240px;
+  color: #ffffff;
+}
+
+.info a,
+.info a:link,
+.info a:visited,
+.info a:active {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.info a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*End about section*/
+
+/*Resume*/
+
+.resumeDetails {
+  text-align: left;
+}
+
+.container .resumeDetails {
+  display: inline-block;
+  float: none;
+}
+
+.em {
+  margin-bottom: 40px;
+}
+
+.em:last-child {
+  margin-bottom: 0;
+}
+
+.dtIco,
+.det {
+  float: left;
+}
+
+.dtIco {
+  margin-top: 20px;
+}
+
+.dtIco span.ico {
+  background: #309B76;
+  border: 3px solid #307B61;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 18px;
+  height: 45px;
+  line-height: 39px;
+  text-align: center;
+  width: 45px;
+  position: relative;
+}
+
+.employment {
+  position: relative;
+}
+
+.employment:before {
+  background: #efefef;
+  /* Old browsers */
+  background: -moz-linear-gradient(top,  #efefef 1%, #efefef 75%, #ffffff 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#efefef), color-stop(75%,#efefef), color-stop(100%,#ffffff));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #efefef 1%,#efefef 75%,#ffffff 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #efefef 1%,#efefef 75%,#ffffff 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #efefef 1%,#efefef 75%,#ffffff 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom,  #efefef 1%,#efefef 75%,#ffffff 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#ffffff',GradientType=0 );
+  /* IE6-9 */
+  bottom: 0;
+  content: "";
+  left: 3.7%;
+  margin-left: -5px;
+  position: absolute;
+  top: 60px;
+  width: 3px;
+}
+
+.det {
+  margin-left: 32px;
+  padding: 20px;
+  position: relative;
+  width: 560px;
+}
+
+.det h3 {
+  margin-bottom: 10px;
+  text-transform: none;
+}
+
+.det h3 span {
+  font-size: 13px;
+}
+
+.det .date {
+  background: #343434;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.det .date span {
+  color: #ffffff;
+  float: right;
+  font-size: 12px;
+  padding: 4px 22px;
+  text-transform: uppercase;
+}
+
+.det .date i {
+  background: #309B76;
+  color: #ffffff;
+  float: left;
+  font-size: 14px;
+  padding: 8px 10px;
+  position: relative;
+}
+
+.date i:after {
+  border-bottom: 4px solid #309B76;
+  border-left: 4px solid rgba(0, 0, 0, 0);
+  border-right: 4px solid rgba(0, 0, 0, 0);
+  bottom: -1px;
+  content: "";
+  height: 0;
+  left: 30px;
+  position: absolute;
+  top: 44%;
+  transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  width: 0;
+}
+
+.recognitionHolder {
+  position: relative;
+}
+
+.imgrecognition {
+  background-image: url(../images/profileImages/austin.jpg);
+  background-position: 50% 59%;
+  background-size: cover;
+  display: block;
+  height: 100%;
+  min-height: 500px;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+}
+
+.imgrecognition:before {
+  background: none repeat scroll 0 0 rgba(36, 36, 36, 0.3);
+}
+
+.rcgIntro {
+  margin-top: 28% !important;
+  position: relative;
+  text-shadow: 0px 1px 2px rgba(81, 79, 79, 1);
+}
+
+.rcgIntro h2 {
+  color: #ffffff;
+  font-size: 19px;
+  margin-bottom: 5px;
+}
+
+.rcgIntro p {
+  color: #ffffff;
+  padding-right: 40px;
+  font-size: 1.1em;
+}
+
+.rcg:last-child {
+  padding-bottom: 0;
+}
+
+.rcgIco,
+.rcgDet {
+  float: left;
+}
+
+.rcgIco span.ico {
+  color: #309B76;
+  display: inline-block;
+  font-size: 35px;
+  font-weight: 100 !important;
+  line-height: 52px;
+  margin: 12px 10px 10px 20px;
+  position: relative;
+  text-align: center;
+  width: 60px;
+}
+
+.rcgDet {
+  margin-left: 10px;
+  width: 360px;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 10px;
+}
+
+.rcg:last-child .rcgDet {
+  border-bottom: 0 none;
+}
+
+.rcgDet h2 {
+  font-size: 18px;
+}
+
+.rcgDet h3 {
+  margin-top: 6px;
+  color: #999999;
+  font-size: 16px;
+  text-transform: none;
+}
+
+.rcgDet h3 span {
+  display: block;
+  font-size: 12px;
+  color: #343434;
+}
+
+/*End resume*/
+
+/*Portfolio section*/
+
+.filterNav {
+  text-align: center;
+}
+
+ul#category li {
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+ul#category li a {
+  color: #999999;
+  display: inline-block;
+  padding: 0 10px;
+  position: relative;
+  font-size: 14px;
+}
+
+#category .current a {
+  color: #343434;
+}
+
+#category .current a:after {
+  border-bottom: 1px solid #309B76;
+  content: "";
+  display: block;
+  left: 50%;
+  margin-left: -10px;
+  position: absolute;
+  top: 25px;
+  width: 14px;
+  z-index: 0;
+}
+
+.portfolio .one-third.column {
+  height: 180px;
+}
+
+.item {
+  position: relative;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.itemDesc {
+  position: absolute;
+  background: rgba(36, 36, 36, .8);
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.itemDescInner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 300px;
+  height: 180px;
+}
+
+.itemDesc h3 {
+  color: #f1f1f1;
+  margin-bottom: 10px;
+  text-transform: none;
+  padding: 0 10px;
+}
+
+.itemDesc h3 span {
+  display: block;
+  margin-top: 2px;
+}
+
+.itemDesc span {
+  margin-top: -5px;
+  font-size: 13px;
+  text-transform: none;
+}
+
+.itemBtn a {
+  color: #e4e4e4;
+  border: 2px solid #e4e4e4;
+  padding: 5px 13px;
+  font-size: 12px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.itemBtn a:last-child {
+  margin-left: 5px;
+}
+
+/*End portfolio section*/
+
+/*Call to action */
+
+.clt {
+  padding-top: 50px;
+}
+
+.cltInner h2 {
+  font-size: 18px;
+  color: #f1f1f1;
+  margin-bottom: 20px;
+}
+
+.cltInner a {
+  color: #ffffff;
+  display: inline-block;
+  background: #309B76;
+  text-transform: uppercase;
+}
+
+.cltInner a:hover {
+  color: #d7d4d4;
+  background: #706c6b;
+}
+
+/*End call to action*/
+
+/*Instagram feed*/
+
+.instaInner {
+  position:relative;
+}
+
+
+.insta{
+    color: #ffffff;
+    height: 100%;
+    left: 50%;
+    position: absolute;
+  margin-left: -145px;
+    top: 0;
+    width: 288px;
+    z-index: 999;
+}
+
+
+.instaTitle {
+    color: #ffffff;
+    height: 100%;
+    left: 50%;
+    margin-left: -145px;
+    margin-top: -30px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 288px;
+    z-index: 999;
+}
+
+.insta i{
+  font-size:30px;
+}
+
+.insta h3{
+  color:#ffffff;
+  text-transform:none;
+  margin-top: 10px;
+}
+
+.instaFeed li ,.instaFeed li a{
+  position:relative;
+  display:inline;
+  width:10%;
+  
+}
+
+
+.instaFeed li a{
+  display:inline-block;
+
+  
+}
+
+.instaFeed li img {
+  display:inline-block;
+  width:100%;
+  
+  
+}
+
+
+.instaFeed li a:before{
+    background: rgba(36, 36, 36, 0.7);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  left:0;
+  top:0;
+  z-index:0;
+  display: block
+}
+
+.instaFeed li a:hover:before{
+  background: rgba(36, 36, 36, 0);
+}
+
+/*End instagram feed*/
+
+/*Footer*/
+
+.footerTop {
+  background: #2c2c2c;
+}
+
+.socialsFooter li {
+  display: inline-block;
+  margin-left: 8px;
+  margin-right: 8px;
+  text-align: center;
+}
+
+.socialsFooter a {
+  color: #ffffff;
+  display: inline-block;
+  font-size: 25px;
+  opacity: .1;
+}
+
+.socialsFooter a:hover {
+  opacity: .8;
+}
+
+footer .copy {
+  margin-top: 25px;
+}
+
+.top {
+  margin-top: 30px;
+}
+
+.top a i {
+  background: none repeat scroll 0 0 #323232;
+  border: 1px solid #383838;
+  color: #f1f1f1;
+  display: inline-block;
+  font-size: 12px;
+  padding: 0 12px;
+}
+
+/*End footer*/
+
+/* -------------------- Media queries -------------------- */
+
+/*Landscape 1024 X 600 */
+
+@media only screen and (min-width: 1000px) and (max-width: 1030px) {
+  .bigTitle img {
+    left: 48.01%;
+    width: 4%;
+  }
+}
+
+/* (1680x1050) WSXGA+ Display */
+
+@media only screen and (min-width: 1650px) and (max-width: 1889px) {
+  .bigTitle img {
+    left: 48.7%;
+    width: 2.5%;
+  }
+}
+
+/* Smartphones & Tablets (portrait) & Tiny Desktops -------- */
+
+@media only screen and (min-width: 640px) and (max-width: 799px) {
+  .bigTitle img {
+    left: 46.5% !important;
+    width: 6.9% !important;
+  }
+}
+
+/* (1280x1024) SXGA Display */
+
+/*iPad lanscape*/
+
+@media screen and (max-device-width: 960px) and (min-width: 1000px) and (max-width: 1030px) {
+  .teaser .slide li {
+    background-attachment: scroll;
+    background-position: 53% 82px !important;
+    background-size: cover;
+  }
+
+  .bigTitle img {
+    width: 4.1%;
+    left: 48.21%;
+  }
+}
+
+/* Tablet Portrait size -> standard 960 */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .teaser .slide li {
+    background-attachment: scroll;
+    background-position: 53% 35px !important;
+    background-size: cover;
+  }
+
+  .bigTitle img {
+    width: 5.5% !important;
+    left: 47.41% !important;
+  }
+
+  .introTitle img {
+    left: 40.6%;
+    top: 63px;
+    width: 17%;
+  }
+
+  .nav {
+    width: 263px !important;
+  }
+
+  .det {
+    width: 479px;
+  }
+
+  .employment:before {
+    left: 4.7%;
+  }
+
+  .rcgIntro {
+    margin-top: 33% !important;
+  }
+
+  .rcgDet {
+    width: 260px;
+  }
+
+  .footerTop.ofsInTop {
+    padding-top: 30px;
+  }
+}
+
+/* Mobile Landscape Size -> Tablet Portrait size*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  html {
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+  }
+
+  header {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0;
+    margin-top: 0 !important;
+    background-color: rgba(255, 255, 255, 0.97) !important;
+  }
+
+  .headerSocials {
+    display: none !important;
+  }
+
+  .teaser .slide  li {
+    background-attachment: scroll;
+    background-position: 53% 82px !important;
+    background-size: cover;
+  }
+
+  .nav {
+    width: 420px !important;
+  }
+
+  .nav.second {
+    padding-bottom: 20px;
+  }
+
+  .caption {
+    top: 53.4%;
+  }
+
+  .mainHeader {
+    height: 81px;
+  }
+
+  .nav.first .mainNav {
+    margin-top: 25px;
+  }
+
+  .mainNav {
+    display: none;
+  }
+
+  .mainNav li {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .mainNav li a {
+    padding: 5px 0;
+    color: #999999;
+  }
+
+  .mobileBtn {
+    display: inline-block;
+    position: absolute;
+    top: 26px;
+    right: 0;
+  }
+
+  .caption h1 {
+    font-size: 50px;
+  }
+
+  .bigTitle img {
+    width: 8.7%;
+    left: 45.7%;
+  }
+
+  .introTitle img {
+    left: 44%;
+    top: 61px;
+    width: 11%;
+  }
+
+  .container .intro,
+  .container .info {
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+
+  .profile {
+    padding-bottom: 100px;
+  }
+
+  .employment:before {
+    left: 6%;
+  }
+
+  .det {
+    width: 370px;
+    margin-left: 5px;
+  }
+
+  .imgrecognition {
+    width: 100%;
+    height: 33%;
+    min-height: 100px;
+  }
+
+  .container .rcgIntro {
+    margin-top: 23% !important;
+  }
+
+  .container .rcgDetails.margHTop {
+    margin-top: 100px;
+  }
+
+  .rcgDet {
+    width: 300px;
+  }
+
+  .container .item {
+    margin-bottom: 30px;
+  }
+
+  .insta {
+    height: 10%;
+    left: 0;
+    padding-top: 220px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .instaFeed li, .instaFeed li a{width:100%;}
+}
+
+/* Mobile Portrait Size -> Mobile Landscape Size */
+
+@media only screen and (max-width:479px) {
+  html {
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+  }
+
+  html {
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+  }
+
+  header {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0;
+    margin-top: 0 !important;
+    background-color: rgba(255, 255, 255, 0.97) !important;
+  }
+
+  .headerSocials {
+    display: none !important;
+  }
+
+  .teaser .slide  li {
+    background-attachment: scroll;
+    background-position: 53% 82px !important;
+    background-size: cover;
+  }
+
+  .nav {
+    width: 420px !important;
+  }
+
+  .nav.second {
+    padding-bottom: 20px;
+  }
+
+  .caption {
+    top: 55%;
+  }
+
+  .mainHeader {
+    height: 81px;
+  }
+
+  .mainNav {
+    margin-right: 0;
+  }
+
+  .nav.first .mainNav {
+    margin-top: 25px;
+  }
+
+  .mainNav {
+    display: none;
+  }
+
+  .mainNav li {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .mainNav li a {
+    padding: 5px 0;
+    color: #999999;
+  }
+
+  .mobileBtn {
+    display: inline-block;
+    position: absolute;
+    top: 26px;
+    right: 0px;
+  }
+
+  .caption h1 {
+    font-size: 40px;
+  }
+
+  .bigTitle img {
+    width: 14%;
+    left: 43.2%;
+  }
+
+  .container .intro,
+  .container .info {
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+
+  .profile {
+    padding-bottom: 100px;
+  }
+
+  .employment:before {
+    left: 8.7%;
+  }
+
+  .det {
+    width: 250px;
+    margin-left: 5px;
+  }
+
+  .imgrecognition {
+    width: 100%;
+    height: 33%;
+    min-height: 100px;
+  }
+
+  .container .rcgIntro {
+    margin-top: 33% !important;
+  }
+
+  .container .rcgDetails.margHTop {
+    margin-top: 100px;
+  }
+
+  .rcgDet {
+    width: 160px;
+  }
+
+  ul#category li {
+    display: block;
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+
+  .container .item {
+    margin-bottom: 30px;
+  }
+
+  .insta {
+    height: 10%;
+    left: 0;
+    padding-top: 135px;
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  .instaFeed li, .instaFeed li a{width:100%;}
+
+}
+
+/* -------------------- End media queries -------------------- */
+
+/*** uncss> filename: /Users/Michael/git/schnitzel.github.io/css/magnific-popup.css ***/
+
+/* Magnific Popup CSS */
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* Main image in popup */
+
+/* The shadow behind the image */
+
+@media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
+  /**
+* Remove all paddings around the image on small screen
+*/
+}
+
