@@ -39,7 +39,7 @@ $('a.scroll').smoothScroll({
 //---------------------------------- Main slider setup-----------------------------------------//
 
 function scrolling() {
-	    var treshhold = Math.round($(window).scrollTop() / 8) + 20;
+	    var treshhold = Math.round($(window).scrollTop() / 8) + 60;
         $('li.parallax').css('backgroundPosition', '100% ' + treshhold + '%');    
 }
 
@@ -63,19 +63,6 @@ $(document).scroll(function () {
 
 //---------------------------------- End main slider setup-----------------------------------------//
 
-
-
-//---------------------------------- Site slider-----------------------------------------//
-
-
-$('.postSlider, .postSliderLarge, .projectSlider').flexslider({
-	animation: "slide",
-	slideshow: true,
-	directionNav:false,
-	controlNav: true
-});
-
-//---------------------------------- End site slider-----------------------------------------//
 
 
 
@@ -135,73 +122,6 @@ $('.itemDesc, .prjLink').hover( function(){
 
 
 
-//---------------------------------- Form validation-----------------------------------------//
-
-
-
-
-$('#submit').click(function(){ 
-
-	$('input#name').removeClass("errorForm");
-	$('textarea#message').removeClass("errorForm");
-	$('input#email').removeClass("errorForm");
-	
-	var error = false; 
-	var name = $('input#name').val(); 
-	if(name == "" || name == " ") { 
-		error = true; 
-		$('input#name').addClass("errorForm");
-	}
-	
-	
-		var msg = $('textarea#message').val(); 
-		if(msg == "" || msg == " ") {
-			error = true;
-			$('textarea#message').addClass("errorForm");
-			
-		}
-	
-	var email_compare = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i; 
-	var email = $('input#email').val(); 
-	if (email == "" || email == " ") { 
-		$('input#email').addClass("errorForm");
-		error = true;
-	}else if (!email_compare.test(email)) { 
-		$('input#email').addClass("errorForm");
-		error = true;
-	}
-
-	if(error == true) {
-		return false;
-	}
-
-	var data_string = $('.contactForm form, .replyForm form').serialize(); 
-	
-
-	$.ajax({
-		type: "POST",
-		url: $('.contactForm form, .replyForm form').attr('action'),
-		data: data_string,
-		
-		success: function(message) {
-				if(message == 'SENDING'){
-					$('#success').fadeIn('slow');
-				}
-				else{
-					$('#error').fadeIn('slow');
-				}
-					}
-			
-	});
-
-	return false; 
-});
-
-
-
-//---------------------------------- End form validation-----------------------------------------//
-
-
 
 //--------------------------------- Mobile menu --------------------------------//
 
@@ -241,37 +161,7 @@ $('.mainNav li a').click(function(){
 
 
 
-//--------------------------------- Twitter feed --------------------------------//
 
-
-jQuery(".tweets").tweet({
-  join_text: false,
-  username: "BenaissaGhrib", // Change username here
-  modpath: './twitter/',
-  avatar_size: false,
-  count: 1,
-  auto_join_text_default: ' we said, ',
-  auto_join_text_ed: ' we ',
-  auto_join_text_ing: ' we were ',
-  auto_join_text_reply: ' we replied to ',
-  auto_join_text_url: ' we were checking out ',
-  loading_text: 'Loading tweets...'
-
-});
-
-
-
-//--------------------------------- End twitter feed --------------------------------//
-
-
-//--------------------------------- Random images-------------------------------//
-
-$(function() {
-    var randomImg = ['r1.jpg', 'r2.jpg', 'r3.jpg', 'r4.jpg', 'r5.jpg', 'r6.jpg'];
-    $('.imgTS').css({'background-image': 'url(images/teaserImages/' + randomImg[Math.floor(Math.random() * randomImg.length)] + ')'});
-   });        
-
-//--------------------------------- End random images--------------------------------//
 
 
 
@@ -282,7 +172,7 @@ jQuery.fn.spectragram.accessData={
 	clientID:'e659391279a64365a13bfb26b4caf15d'}
 	
 $('.instaFeed').spectragram('getUserFeed', {
-		query: 'nike', //Change the instagram feed user to display the feed that you want.
+		query: 'Schnitzel', //Change the instagram feed user to display the feed that you want.
 		size: 'large',
 		max: 10
 });
