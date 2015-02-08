@@ -481,7 +481,7 @@ h2.prfTitle {
 
 ul#category li a,
 .itemDesc span,
-.det h3 span,
+.det h3 span.small,
 .date span,
 .rcgDet h3 span {
   font-family: 'open_sanslight_italic', Arial, sans-serif;
@@ -497,7 +497,7 @@ h2.prfTitle span {
 
 ul#category li a,
 .itemDesc span,
-.det h3 span,
+.det h3 span.small,
 .det .date span,
 .insta h3,
 .mainNav li a {
@@ -1090,7 +1090,7 @@ h2.prfTitle span {
   text-transform: none;
 }
 
-.det h3 span {
+.det h3 span.small {
   font-size: 13px;
 }
 
